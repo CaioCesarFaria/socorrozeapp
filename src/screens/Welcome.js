@@ -9,6 +9,8 @@ import {
     View
 } from "react-native";
 
+
+
 export default function Welcome(){
 
     const navigation = useNavigation();
@@ -42,7 +44,7 @@ const styles = StyleSheet.create({
     container:{
         flex:1,
         alignItems:"center",
-        justifyContent:'flex-start'
+        justifyContent:'center'
         
     },
     titleWelcome:{
@@ -68,6 +70,9 @@ const styles = StyleSheet.create({
     },
     buttonInicioText: {
         fontSize:20,
+
+    },
+    containerPrivacidade:{
 
     }
 
